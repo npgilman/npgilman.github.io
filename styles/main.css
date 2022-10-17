@@ -1,8 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-    
     font-family: 'Noto Sans Warang Citi', sans-serif;
+}
+
+object {
+    display: flex;
+    
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -14,7 +20,6 @@ img {
     height: 250px;
 }
 
-
 .page-container {
     display: flex;
     flex-direction: column;
@@ -25,7 +30,7 @@ img {
     margin: 5px;
     width: 30%;
     height: 30px;
-    background-color: aquamarine;
+    background-color: rgb(155, 247, 255);
 
     text-align: center;
 
@@ -34,13 +39,15 @@ img {
 }
 
 .button:hover {
-    background-color: rgb(65, 133, 111);
+    background-color: rgb(96, 160, 165);
     text-decoration: underline;
 }
 
 .body {
     flex: 1;
 
+    display: flex;
+    flex-direction: column;
     background-color: #f2f2f2;
 }
 

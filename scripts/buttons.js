@@ -10,7 +10,7 @@ addEventListener("click", (event) => {
       break;
 
     case "resume_button":
-        newHTML = '<object type="text/html" data="pages/resume.html"></object>';
+        newHTML = '<object style="min-height:70vh; flex:1;" type="text/html" data="pages/resume.html"></object>';
       break;
 
     case "about_button":
