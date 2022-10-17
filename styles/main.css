@@ -22,6 +22,8 @@ img {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
+
 }
 
 .button {
@@ -52,4 +54,7 @@ img {
 .footer {
     height:50px;
     background-color: #c8d8e4;
+    text-align: center;
+
+    padding-top: 20px;
 }
