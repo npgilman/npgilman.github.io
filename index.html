@@ -1,1 +1,39 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nathan Gilman - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+
+    <script src="scripts/buttons.js"></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="header">
+        <div class="header-image">image</div>
+        <div class="header-spacer">spacer</div>
+        <div class="header-buttons">
+          <div class="button" id="projects_button">Projects</div>
+          <div class="button" id="resume_button">Resume</div>
+          <div class="button" id="about_button">About Me</div>
+        </div>
+      </div>
+
+      <div class="body" id="body-container">
+        <script>
+            document.getElementById("body-container").innerHTML = newHTML = '<object type="text/html" data="pages/about-me.html"></object>';
+        </script>
+      </div>
+
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
