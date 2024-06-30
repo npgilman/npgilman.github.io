@@ -7,7 +7,7 @@ const Title: React.FC = () => {
     "Developer",
     "Creator",
     "Taco Bell Superfan",
-    "Rizzly Bear",
+    "Younger Brother",
   ];
   const [index, setIndex] = useState(0);
   const [typedText, setTypedText] = useState("");

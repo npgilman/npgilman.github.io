@@ -20,7 +20,8 @@ const Page: React.FC = () => {
           entered ? "-translate-y-full" : "translate-y-0"
         }`}
       >
-        <video
+        <img src="osman-rana-xhpMNieqBwA-unsplash.jpg" alt="Photo by Osman Rana on Unsplash"/>
+        {/* <video
           className="absolute inset-0 object-cover"
           autoPlay
           muted
@@ -29,7 +30,7 @@ const Page: React.FC = () => {
         >
           <source src="fight.mp4" type="video/mp4" />
           Your browser does not support HTML5 video.
-        </video>
+        </video> */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <Title />
           <Enter setEntered={toggleEnter} />
