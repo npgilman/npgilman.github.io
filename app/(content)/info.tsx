@@ -73,7 +73,7 @@ const Info = () => {
           Test Engineer Intern - Dignitas Technologies
           <div style={{ fontSize: "12pt" }}>
             <li> Orlando, FL (<i>January 2021 - August 2021</i>) </li>
-            <li> Skills: </li>
+            <li> Skills: JUnit 5, GWT, Running Test Procedures</li>
             <li> Highlight: First Internship! Lots of new experiences.</li>
             <br/>
           </div>
