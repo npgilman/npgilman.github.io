@@ -49,24 +49,24 @@ const Info = () => {
           DevSecOps Intern - General Dynamics Missions Systems
           <div style={{ fontSize: "12pt" }}>
             <li> Boston, MA (<i>May 2024 - August 2024</i>) </li>
-            <li> Skills: </li>
-            <li> Highlight: </li>
+            <li> Skills: Ansible, Python, GitLab CICD, Bash Scripts</li>
+            <li> Highlight: Gained more exposure to automation and configuration tools</li>
             <br/>
           </div>
 
           Software Engineering Intern - Lockheed Martin
           <div style={{ fontSize: "12pt" }}>
             <li> Orlando, FL (<i>June 2023 - May 2024</i>) </li>
-            <li> Skills: </li>
-            <li> Highlight: </li>
+            <li> Skills: C++, Unreal Engine 5, UI MVVM Arcitecture, Proposal Writing</li>
+            <li> Highlight: Project Manager for intern group developing autonomous rover</li>
             <br/>
           </div>
           
           Software Engineering Intern - Lockheed Martin
           <div style={{ fontSize: "12pt" }}>
             <li> Orlando, FL (<i>May 2022 - August 2022</i>) </li>
-            <li> Skills: </li>
-            <li> Highlight: </li>
+            <li> Skills: C++, Unreal Engine 5, Git + Git Submodules</li>
+            <li> Highlight: Learned ECS Architecture and its benefits with simulations / game engines</li>
             <br/>
           </div>
           
@@ -74,7 +74,7 @@ const Info = () => {
           <div style={{ fontSize: "12pt" }}>
             <li> Orlando, FL (<i>January 2021 - August 2021</i>) </li>
             <li> Skills: </li>
-            <li> Highlight: </li>
+            <li> Highlight: First Internship! Lots of new experiences.</li>
             <br/>
           </div>
         </div>
